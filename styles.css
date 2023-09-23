@@ -54,6 +54,18 @@ nav a{
         font-size: 60px;
         font-weight: 100;
     }
+    .see_all_desktop{
+        width: 120px;
+        height: 50px;
+        float: right;
+        margin-right: 5%;
+
+    }
+    .see_all_mobile{
+        display: none;
+
+    }
+
     .cont{
        display: flex;
        flex-wrap: wrap;
@@ -196,6 +208,13 @@ nav a{
             margin:30px;
             font-weight: 100;
         }
+        .see_all_desktop{
+            display: none;   
+        }    
+        .see_all_mobile{
+
+                }
+    
         .cont div{
             border-radius: 3px;
             width: 100%;
