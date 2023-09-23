@@ -1,0 +1,283 @@
+nav{
+    color: white;
+}
+nav a{
+    color: white;
+}
+
+#menu{
+    display: none;
+}
+
+.leader p{
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 600px) {
+    #hamburger{
+        display:none;
+    }
+    .first{
+    background-image: url("images/desktop/image-hero.jpg");
+    height: 600px;
+}
+
+    .im{
+    border: 2px solid whitesmoke;
+    width:600px;
+    color: aliceblue;
+    position: relative;
+    top: 25%;
+    left: 10%;
+    padding: 10px;
+    }
+
+    .im h1{
+        font-size: 72px;
+        font-weight: 100;
+    }
+    .second img{
+        margin-left: 50px;
+    }
+    .leader{
+        padding-top: 20%;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .leader h2{
+        font-size: 48px;
+        font-weight: 200;
+    }
+    .creations h1{
+        margin:30px;
+        font-size: 60px;
+        font-weight: 100;
+    }
+    .cont{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 30px;
+    }
+    .cont div{
+        border-radius: 3px;
+    }
+    .cont div h3{
+        position: relative;
+        left:3%;
+        top:72%;
+        color: rgb(245, 248, 250);
+        font-weight: 100;
+    }
+    #one{
+        background-image: url("images/desktop/image-deep-earth.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #two{
+        background-image: url("images/desktop/image-night-arcade.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #three{
+        background-image: url("images/desktop/image-soccer-team.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #four{
+        background-image: url("images/desktop/image-grid.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #five{
+        background-image: url("images/desktop/image-from-above.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #six{
+        background-image: url("images/desktop/image-pocket-borealis.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #seven{
+        background-image: url("images/desktop/image-curiosity.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    #eight{
+        background-image: url("images/desktop/image-fisheye.jpg");
+        background-repeat: no-repeat;
+        height: 500px;
+        width: 300px;
+        margin: 10px;
+    }
+    footer{
+        background-color: black;
+        color: aliceblue;
+    }
+    footer a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color:blue;
+        text-decoration: none;
+    }
+    footer .fa{
+        font-size: 48px;
+        margin: 5px;
+    }
+    .fas_div{
+        left:50%;
+        position: relative;
+    }
+    footer .second p{
+        float: right;
+    }
+}
+
+
+
+/* mobile view next */
+
+@media only screen and (max-width: 600px) {
+    .navbar-toggler{
+        display:none;
+    }
+    #hamburger{
+        display: block;
+        float: right;
+         position:sticky; 
+         top:10px;
+         z-index:1
+    }
+    .first{
+        background-image: url("images/mobile/image-hero.jpg");
+        height: 600px;
+    }
+    
+        .im{
+        margin-top: 75px;
+        border: 2px solid whitesmoke;
+        color: aliceblue;
+        padding: 10px;
+        }
+    
+        .im h1{
+            font-size: 48px;
+            font-weight: 100;
+        }
+        .leader{
+            padding-top: 20%;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .leader h2{
+            font-size: 48px;
+            font-weight: 200;
+        }
+        .creations h1{
+            margin:30px;
+            font-weight: 100;
+        }
+        .cont div{
+            border-radius: 3px;
+            width: 100%;
+        }
+        .cont div h3{
+            position: relative;
+            left:3%;
+            top:55%;
+            color: rgb(245, 248, 250);
+            font-weight: 300;
+        }
+        #one{
+            background-image: url("images/mobile/image-deep-earth.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #two{
+            background-image: url("images/mobile/image-night-arcade.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #three{
+            background-image: url("images/mobile/image-soccer-team.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #four{
+            background-image: url("images/mobile/image-grid.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #five{
+            background-image: url("images/mobile/image-from-above.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #six{
+            background-image: url("images/mobile/image-pocket-borealis.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #seven{
+            background-image: url("images/mobile/image-curiosity.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        #eight{
+            background-image: url("images/mobile/image-fisheye.jpg");
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+        }
+        footer h1{
+            text-align: center;
+        }
+        footer a{
+            color: aliceblue;
+            text-decoration: none;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        footer a:hover{
+            color:blue;
+            text-decoration: none;
+        }
+        footer .fa{
+            font-size: 48px;
+            margin: 5px;
+        }
+        .fas_div{
+            align-items: center;
+            text-align: center;
+        }
+        #menu a{
+            color: aliceblue;
+        }
+        #menu a:hover{
+            color: blue;
+            text-decoration: none;
+        }
+    }
